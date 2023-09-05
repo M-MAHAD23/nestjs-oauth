@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Invitation Email</title>
+    <style>
+      .fg_container {
+        width: 80%;
+        margin: 0 auto;
+        padding: 40px;
+        font-family: "Montserrat", sans-serif;
+      }
+      header {
+        /*display: flex;*/
+        /*align-items: center;*/
+        /*justify-content: space-between;*/
+        height: 120px;
+        border-bottom: 1px solid #cedef2;
+          width: 100%;
+      }
+      #social_icons {
+        float: right;
+      }
+      .content {
+        padding: 40px 0;
+      }
+      .content h2 {
+        margin: 0;
+      }
+      .content p {
+        padding: 10px 0;
+        line-height: 24px;
+        margin: 0;
+      }
+      .content p a {
+        color: rgba(148, 162, 242, 1);
+        text-decoration: underline;
+      }
+      .content p a:hover {
+        text-decoration: none;
+      }
+      .content a button {
+        font-weight: 400;
+        font-size: 24px;
+        color: #fff;
+        padding: 15px 30px;
+        border-radius: 5px;
+        box-shadow: 0px 4px 14px 0px rgba(89, 87, 149, 0.15);
+        background-color: rgba(148, 162, 242, 1);
+        border: none;
+        cursor: pointer;
+        margin: 40px 0 20px;
+        transition: all 0.3s ease-in-out;
+      }
+      .content a button:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.3);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="fg_container">
+      <!-- header -->
+      <header>
+          <img class="XYZ_logo" src="" alt="XYZ logo"/>
+          <div class="social_icons">
+              <img src="https://i.imgur.com/PNfQKGk.png" alt="Twitter" width="7" height="7"/>
+              <img src="https://i.imgur.com/dgsW8Q4.png" alt="Facebook" width="7" height="7" />
+              <img src="https://i.imgur.com/7RAKMzj.png" alt="Instagram" width="7" height="7"/>
+          </div>
+      </header>
+      <!-- content -->
+      <div class="content">
+        <h2>Experience the Future: Join Us and Revolutionize Your Workflow!</h2>
+        <p></p>
+        <p>Hi {{name}},</p>
+        <p>
+          You're invited to unlock a world of convenience and innovation with
+          our app. Embrace the future and elevate your everyday life with our
+          cutting-edge features.
+        </p>
+
+        <p>Thanks, XYZ Team</p>
+        <a href="">
+          <button>Sign Up</button>
+        </a>
+        <p>
+          This email was sent to
+          <a href="mailto:angel@XYZ.com">angel@XYZ.com</a>. If you'd
+          rather not receive this kind of email, Don’t want any more emails from
+          XYZe? <a href="#">Unsubscribe</a>.
+        </p>
+        <p>100 Smith Street, Melbourne VIC 3000 <br />© 2023 XYZ</p>
+      </div>
+    </div>
+  </body>
+</html>
